@@ -11305,6 +11305,9 @@ with (thing) {
               return the <a class='dfnref' href='#dfn-named-properties-object'>named properties object</a>
               for <var>A</var>, as defined in <a href='#named-properties-object'>section <?sref named-properties-object?></a>
               <?sdir named-properties-object?>.</li>
+              <li>Otherwise, if <var>A</var> is a
+              <a class='dfnref' href='#dfn-callback-interface'>callback interface</a>, then return
+              <a>%FunctionPrototype%</a>.</li>
               <li>Otherwise, if <var>A</var> is declared to inherit from another
               interface, then return the
               <a class='dfnref' href='#dfn-interface-prototype-object'>interface prototype object</a>
